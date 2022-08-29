@@ -1,0 +1,68 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  width: 100%;
+}
+
+.leftNavBar div:first-of-type {
+  color: #0097c2;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.leftNavBar div:nth-child(2) {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #637182;
+}
+
+.leftNavBar div:nth-child(2) span {
+  color: #0097c2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.rightNavBar {
+  display: flex;
+  padding: 12px 26px 0 0;
+
+}
+
+.rightNavBar div:first-of-type {
+  margin-right: 15px;
+  width: 28px;
+  height: 24px;
+  background-color: #e1ecf9;
+  border-radius: 50%;
+}
+.rightNavBar div:nth-child(2) {
+  margin-right: 15px;
+  width: 28px;
+  height: 24px;
+  background-color: #e1ecf9;
+  border-radius: 50%;
+}
+.middleNavBar div:first-of-type {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.middleNavBar div:nth-child(2){
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #0097C2;
+}

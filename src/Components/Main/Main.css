@@ -1,0 +1,35 @@
+.main {
+  background: linear-gradient(306deg, #00244D 56.1%, #ffffff 21.66%);
+  height: 880px;
+}
+.head {
+  color: #0097c2;
+  font-size: 28px;
+  font-weight: 400;
+  padding-top: 30px;
+}
+
+.head span {
+  margin-left: 5px;
+}
+
+/* .head::before {
+    /* width: 1000px;
+    content: "";
+    position: absolute;
+    left: 39.39%;
+    right: -39.57%;
+    top: 322.19%;
+    bottom: 64.09%;
+    height: 228px;
+    background: linear-gradient(283.59deg, #00244d 26.1%, #1769c6 170.66%);
+    transform: rotate(132deg);
+    z-index: -1; */
+/* }  */
+
+.bottom {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin: 10px 20px;
+}
